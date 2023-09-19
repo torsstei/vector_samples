@@ -32,6 +32,9 @@ export ESPASSWORD=<your ES pw>
 export ESHOST=<your ES hostname>
 export ESPORT=<your ES port number>
 
+# Install Jupyter
+pip install jupyter
+
 # Run Jupyter
 jupyter notebook
 
