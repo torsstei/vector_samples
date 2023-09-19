@@ -21,6 +21,17 @@ python -m venv .venv
 # Activate the Virtual environment
 source .venv/bin/activate
 
+# Set the env variables for Elastic connectivity (used in pgvector_tests.ipynb)
+export PGUSER=<your PG user>
+export PGPASSWORD=<your PG pw>
+export PGSSLROOTCERT=<your PG certificate>
+
+# Set the env variables for Elastic connectivity (used in elastic_tests.ipynb)
+export ESUSER=<your ES user>
+export ESPASSWORD=<your ES pw>
+export ESHOST=<your ES hostname>
+export ESPORT=<your ES port number>
+
 # Run Jupyter
 jupyter notebook
 
