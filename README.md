@@ -5,6 +5,7 @@
  - [Vector Indexing with FAISS](elastic_tests.ipynb): Notebook that demonstrates various vector indexing and similarity search options with plain FAISS library.
  - [Vector Indexing with pgvector](pgvector_tests.ipynb): Notebook that demonstrates the vector indexing and similarity search options of pgvector extension in Postges.
  - [Vector Indexing with Elasticseach dense_vector](elastic_tests.ipynb): Notebook that demonstrates the dense_vector indexing support Elasticsearch.
+ - [Vector embedding with OpenAI through LangChain and search in Pinecone](langchain_pinecone_embedding_tests.ipynb): Notebook that demonstrates usage of LangChain for embedding encoding with OpenAI and vector search in Pincecone.
  
 ## Running the notebopoks
 
