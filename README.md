@@ -33,6 +33,12 @@ export ESPASSWORD=<your ES pw>
 export ESHOST=<your ES hostname>
 export ESPORT=<your ES port number>
 
+# Set the env variables for OpenAI and Pinecone sign ups (used in langchain_pinecone_embedding_tests.ipynb)
+OPENAI_API_KEY=<your OpenAI API Key>
+PINECONE_API_KEY=<your pinecone API Key>
+PINECONE_ENVIRONMENT=<your pinecone tunrime environment, e.g.: "gcp-starter">
+PINECONE_INDEX=<index with 1024 dimensions>
+
 # Install Jupyter
 pip install jupyter
 
