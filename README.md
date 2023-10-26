@@ -25,22 +25,31 @@ python -m venv .venv
 # Activate the Virtual environment
 source .venv/bin/activate
 
+# Set the env variables for IBM Cloud and WatsonX (used in slacktor-ibmcloud.ipynb and Use%20watsonx%2C%20Elasticsearch%2C%20and%20LangChain%20to%20answer%20questions%20(RAG).ipynb)
+export PROJECT_ID=<your WatsonX project ID>
+export IBM_CLOUD_API_KEY=<your IBM Cloud API key>
+
 # Set the env variables for Elastic connectivity (used in pgvector_tests.ipynb)
 export PGUSER=<your PG user>
 export PGPASSWORD=<your PG pw>
 export PGSSLROOTCERT=<your PG certificate>
 
-# Set the env variables for Elastic connectivity (used in elastic_tests.ipynb)
+# Set the env variables for Elastic connectivity (used in all demo notebooks with Elastic)
 export ESUSER=<your ES user>
 export ESPASSWORD=<your ES pw>
 export ESHOST=<your ES hostname>
 export ESPORT=<your ES port number>
 
-# Set the env variables for OpenAI and Pinecone sign ups (used in langchain_pinecone_embedding_tests.ipynb)
+# Set the env variables for OpenAI and Pinecone sign ups (used in slacktor.ipynb and langchain_pinecone_embedding_tests.ipynb)
 export OPENAI_API_KEY=<your OpenAI API Key>
 export PINECONE_API_KEY=<your pinecone API Key>
 export PINECONE_ENVIRONMENT=<your pinecone tunrime environment, e.g.: "gcp-starter">
 export PINECONE_INDEX=<index with 1024 dimensions>
+
+# Set the env variables for scrapting Slack conversations (used in slacktor.ipynb and slacktor-ibmcloud.ipynb)
+export SLACK_API_TOKEN=<your Slack API token>
+export SLACK_CHANNEL=<the name of the Slack channel from which you want to scrape conversations>
+
 
 # Install Jupyter
 pip install jupyter
