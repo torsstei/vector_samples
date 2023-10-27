@@ -7,8 +7,8 @@
  - [Vector Indexing with Elasticseach dense_vector](elastic_tests.ipynb): Notebook that demonstrates the dense_vector indexing support Elasticsearch.
  - [Use watsonx, Elasticsearch, and LangChain to answer questions (RAG)](Use%20watsonx%2C%20Elasticsearch%2C%20and%20LangChain%20to%20answer%20questions%20(RAG).ipynb): Notebook that shows a RAG pattern with LangChain using IBM WatsonX models and Elasticsearch as vector store.
  - [Vector embedding with OpenAI through LangChain and search in Pinecone](langchain_pinecone_embedding_tests.ipynb): Notebook that demonstrates usage of LangChain for embedding encoding with OpenAI and vector search in Pincecone.
- - [RAG on Slack Conversations with OpenAI and Pinecone](slacktor.ipynb): Notebook that demonstrates a RAG pattern with retrievalm of slack conversations and using OpenAI LLM and Pinecone.
- - [RAG on Slack Conversations with WatsonX and ElasticSearch](slacktor.ipynb): Notebook that demonstrates a RAG pattern with retrievalm of slack conversations and using WatsonX LLM and ElasticSearch in IBM Cloud.
+ - [RAG on Slack Conversations with OpenAI and Pinecone](slacktor.ipynb): Notebook that demonstrates a RAG pattern with retrieval of slack conversations and using OpenAI LLM and Pinecone.
+ - [RAG on Slack Conversations with WatsonX and ElasticSearch](slacktor.ipynb): Notebook that demonstrates a RAG pattern with retrieval of slack conversations and using WatsonX LLM and ElasticSearch in IBM Cloud.
  
 ## Running the notebopoks
 
