@@ -10,7 +10,7 @@
  - [RAG on Slack Conversations with OpenAI and Pinecone](slacktor.ipynb): Notebook that demonstrates a RAG pattern with retrieval of slack conversations and using OpenAI LLM and Pinecone.
  - [RAG on Slack Conversations with WatsonX and ElasticSearch](slacktor.ipynb): Notebook that demonstrates a RAG pattern with retrieval of slack conversations and using WatsonX LLM and ElasticSearch in IBM Cloud.
  
-## Running the notebopoks
+## Running the notebooks
 
 ```bash
 # Clone the Repository
